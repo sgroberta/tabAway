@@ -1,0 +1,123 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    background-color: #F9F8FB;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 20% 58% 13% 9%;
+    grid-template-rows: 100px;
+    align-items: center;
+    justify-items: center;
+}
+
+.logo {
+    margin-left: 45px;
+}
+
+.pesquisa {
+    width: 100%;  
+    display:flex;
+    justify-content: center;
+}
+
+.pesquisa > input {
+    width: 80%;
+    background-color: #c2c2c2;
+    border: none;
+    padding:10px;
+    border-radius: 100px;
+}
+
+.login {
+    margin-left: 90px;
+    margin-right: 65px;
+}
+
+button {
+        margin: 5px;
+        margin-right: 50px;
+        background: none;
+        border: none;
+        outline: none;
+        box-shadow: none;
+}
+
+.linha {
+    width: auto;
+    height: 1px;
+    background: linear-gradient(270deg, #DCB39F 0%, #978592 100%);
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.lista {
+    font-family: "Michroma";
+    color: white;
+    display:flex;
+    list-style: none;
+    gap: 20px;
+    padding-top: 15px;
+    padding-left: 15px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.lista li {
+    padding-bottom: 30px;
+    padding-top:1px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+
+.espaco {
+    width:100px;
+    height: 20px;
+    background-color: #DCB39F;
+}
+
+#roxo{
+    background-color: #978592;
+}
+
+fieldset{
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'inter';
+    margin-bottom: 60px;
+    background-color: #978592;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    border-radius: 30px;
+    max-width: 600px;
+}
+
+.rp {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 140px;
+    align-items: center;
+    justify-items: center;
+    list-style: none;
+    padding-top: 3%;
+}
+
+.textofin {
+    font-family: 'inter';
+    font-size: 20px;
+    margin-bottom: auto;
+}
+
+footer {
+    background-image: linear-gradient (to top, #978592, #F9F8FB);
+}
