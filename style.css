@@ -152,6 +152,8 @@ figure{
 
 #roxo2{
     background-color: #978592;
+    justify-items: center;
+    align-items: center;
 }
 
 .textoden{
